@@ -11,6 +11,7 @@ import Params from '../components/goods/Params.vue'
 import GoodsList from '../components/goods/List.vue'
 import Add from '../components/goods/Add.vue'
 import Order from '../components/order/Order.vue'
+import Report from '../components/report/Report.vue'
 // 导入全局样式表
 import '../assets/css/global.css'
 
@@ -31,7 +32,8 @@ const routes = [
              { path: '/params', component: Params },
              { path: '/goods', component: GoodsList },
              { path: '/goods/add', component: Add },
-             { path: '/orders', component: Order }
+             { path: '/orders', component: Order },
+             { path: '/reports', component: Report },
            ]
   }
 

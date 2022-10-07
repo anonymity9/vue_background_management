@@ -43,7 +43,7 @@
             <template slot-scope="scope">
               <!-- 循环渲染Tag标签 -->
               <el-tag closable v-for="(item, index) in scope.row.attr_vals" 
-                :key="index" closable @close="handleClosed(index, scope.row)" > 
+                :key="index" @close="handleClosed(index, scope.row)" > 
               {{ item }}</el-tag>
 
               <!-- 输入文本框 -->
@@ -90,7 +90,7 @@
             <template slot-scope="scope">
               <!-- 循环渲染Tag标签 -->
               <el-tag closable v-for="(item, index) in scope.row.attr_vals" 
-                :key="index" closable @close="handleClosed(index, scope.row)" > 
+                :key="index"  @close="handleClosed(index, scope.row)" > 
               {{ item }}</el-tag>
 
               <!-- 输入文本框 -->

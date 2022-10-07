@@ -1,9 +1,4 @@
 import Vue from 'vue'
-// import { Button } from 'element-ui'
-// import { Form, FormItem } from 'element-ui'
-// import { input } from 'element-ui' 
-// // 导入弹框组件
-// import { Message } from 'element-ui'
 
 import { Button, Message, Form, FormItem, Input,Container,Header,Aside,Main,Menu,
          Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,Table,TableColumn,
